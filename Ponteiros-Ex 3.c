@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Exibe o maior entre os dois
 void maiorEntre(int *p1, int *p2) {
     printf("%d", (*p1 > *p2) ? *p1 : *p2);
 }
